@@ -18,6 +18,7 @@
          </ul>
         </nav>
     </header>
+    
 
     <div class="container">
 
@@ -25,7 +26,7 @@
 
             <h2>About Me</h2>
 
-            <img id="bio-image" src="../assets/images/bio-image.jpeg" alt="Kiara Neve Perez">
+            <img id="bio-image" src="assets/images/bio-image.jpeg" alt="Kiara Neve Perez">
 
             <p>Kiara was in band for nine years and was involved in her high school band's leadership. After graduating, she went to Seminole State College's leadership retreat. Kiara has a background in guest service, having worked at BURGERFI for a year and a half and Universal Orlando Resort for over two years. She has a passion for travelling, meeting new people, and experiencing new cultures. Kiara is dedicated to her work and goal oriented.</p>
 
@@ -33,7 +34,6 @@
 
 
     </div>
-
 
 </body>
 
@@ -59,29 +59,36 @@ h1 {
     margin: 20px 815px 20px 250px;
     font-size: 28px;
     color: #eeeeee;
-    text-align: left;
-    
+    text-align: left;    
 }
 
 li {
     display: inline;
-    margin-right: 10px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 0px;
 }
 
 h2 {
+    color: teal;
     font-size: 26px;
-    text-decoration: underline #333333;
+    border-bottom: 1px solid gray;
+}
+
+p {
+    display: inline;
 }
 
 
 .container {
     width: 800px;
     margin: 0px 150px 0px 250px;
+    padding: 20px;
     background: white;
 }
 
 #main-bio {
-    width: 50%;
+    width: 100%;
 }
 
 #contact-info {
@@ -89,8 +96,8 @@ h2 {
 }
 
 #bio-image {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 300px;
     margin-right: 20px;
 }
 

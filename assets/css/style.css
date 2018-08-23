@@ -18,29 +18,36 @@ h1 {
     margin: 20px 815px 20px 250px;
     font-size: 28px;
     color: #eeeeee;
-    text-align: left;
-    
+    text-align: left;    
 }
 
 li {
     display: inline;
-    margin-right: 10px;
+    float: right;
+    margin-top: -10px;
+    margin-right: 0px;
 }
 
 h2 {
+    color: teal;
     font-size: 26px;
-    text-decoration: underline #333333;
+    border-bottom: 1px solid gray;
+}
+
+p {
+    display: inline;
 }
 
 
 .container {
     width: 800px;
     margin: 0px 150px 0px 250px;
+    padding: 20px;
     background: white;
 }
 
 #main-bio {
-    width: 50%;
+    width: 100%;
 }
 
 #contact-info {
@@ -48,7 +55,7 @@ h2 {
 }
 
 #bio-image {
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 300px;
     margin-right: 20px;
 }
