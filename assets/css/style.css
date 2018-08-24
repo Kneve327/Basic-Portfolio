@@ -8,24 +8,28 @@ body {
     font-size: 18px;
     line-height: 150%;
     columns: #333333;
-    background:lightgray;
+    background-image: url(../images/background-image.jpg)
 }
 
 
 h1 {
     background: teal;
+    position: relative;
+    width: 300px;
+    left: 261px;
+    top: -19px;
     padding: 20px;
-    margin: 20px 815px 20px 250px;
     font-size: 28px;
     color: #eeeeee;
     text-align: left;    
 }
 
 li {
-    display: inline;
-    float: right;
-    margin-top: -10px;
-    margin-right: 0px;
+    
+    position: absolute;
+    right: 280px;
+    top: 35px;
+    list-style-type: none;
 }
 
 h2 {
@@ -36,13 +40,21 @@ h2 {
 
 p {
     display: inline;
+    margin: left;
 }
 
+header {
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    height: 67px;
+}
 
 .container {
     width: 800px;
-    margin: 0px 150px 0px 250px;
-    padding: 20px;
+    margin: 20px auto 0px;
+    padding: 20px 20px 180px 20px;
     background: white;
 }
 
@@ -55,6 +67,7 @@ p {
 }
 
 #bio-image {
+    float: left;
     width: 220px;
     height: 300px;
     margin-right: 20px;
