@@ -16,7 +16,7 @@ h1 {
     background: teal;
     position: relative;
     width: 300px;
-    left: 261px;
+    left: 150px;
     top: -19px;
     padding: 20px;
     font-size: 28px;
@@ -24,13 +24,6 @@ h1 {
     text-align: left;    
 }
 
-li {
-    
-    position: absolute;
-    right: 280px;
-    top: 35px;
-    list-style-type: none;
-}
 
 h2 {
     color: teal;
@@ -53,22 +46,33 @@ header {
 
 .container {
     width: 800px;
-    margin: 20px auto 0px;
-    padding: 20px 20px 180px 20px;
+    margin: 20px auto 100px auto;
+    padding: 30px 40px 30px 40px;
     background: white;
 }
+
+a {
+    position: relative;
+    text-decoration: none;
+    top: -50px;
+    color: gray;
+    left: 800px;
+}
+
 
 #main-bio {
     width: 100%;
 }
 
-#contact-info {
-    width: 30%;
-}
-
 #bio-image {
     float: left;
-    width: 220px;
-    height: 300px;
+    width: 280px;
+    height: 340px;
     margin-right: 20px;
+}
+
+footer {
+    width: 100%;
+    background: #333333;
+    border-top: 1px solid teal;
 }
