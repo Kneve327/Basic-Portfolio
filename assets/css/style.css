@@ -57,6 +57,7 @@ a {
     top: -50px;
     color: gray;
     left: 800px;
+    margin-left: 20px;
 }
 
 
@@ -73,6 +74,6 @@ a {
 
 footer {
     width: 100%;
-    background: #333333;
-    border-top: 1px solid teal;
+    border-bottom: 35px solid #333333;
+    border-top: 5px solid teal;
 }
