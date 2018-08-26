@@ -135,20 +135,13 @@ top: -600px;
     height: 300px;
 }
 
-.contact-name {
-    
-}
-
-.contact-email {
-
-}
-
-.contact-message {
-
-}
-
 input {
     width: 100%;
 }
 
+.contact-submit {
+    width: 60px;
 }
+
+
+
